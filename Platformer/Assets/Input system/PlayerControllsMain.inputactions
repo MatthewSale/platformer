@@ -1,0 +1,109 @@
+{
+    "name": "PlayerControllsMain",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "cf0f8392-4f32-40bd-9343-e774c194957b",
+            "actions": [
+                {
+                    "name": "rotate",
+                    "type": "PassThrough",
+                    "id": "c90ae608-85f9-4a63-90ec-5cf799b5d689",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ForwardMovement",
+                    "type": "Button",
+                    "id": "8deca04f-aa6a-4022-96a2-acb01240c502",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftMovement",
+                    "type": "Button",
+                    "id": "836d4062-0775-45dd-b713-55a34933dc9f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightMovement",
+                    "type": "Button",
+                    "id": "cadf363e-d3c7-4274-8c5e-9e9444fe29eb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "BackMovement",
+                    "type": "Button",
+                    "id": "2227f928-c1e0-4aa9-a001-d6aedb511ae7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c209ae87-a16a-419e-a2d4-8b6fccef909a",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d8fd989-9719-4698-b07f-6d6778e8e467",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForwardMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9cb2b1c-15ae-48bc-a820-12e1d58bd944",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cda8a1ed-a95f-450c-8ee6-3858678f279f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8a6840a5-c0e1-4587-81c0-293fd822b114",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
