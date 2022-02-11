@@ -10,6 +10,14 @@ public class PlayerHealthScript : MonoBehaviour
     public Slider slider_delayed;
     public Slider slider_sudden;
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == ("Damage"))
+        {
+            Delay_value = Delay_value - (Random.Range(10, 50));
+        }
+    }
+
     private void Update()
     {
         if(Delay_value < Player_health)
@@ -29,7 +37,6 @@ public class PlayerHealthScript : MonoBehaviour
         yield return new WaitForSeconds(0.8f);
         StartCoroutine(delay());
     }
-
     IEnumerator delay()
     {
         yield return new WaitForSeconds(0.001f);
