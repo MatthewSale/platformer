@@ -71,6 +71,17 @@
                 },
                 {
                     "name": "",
+                    "id": "9dc3c48e-332e-4817-aa1d-40f528bc7ad4",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForwardMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c9cb2b1c-15ae-48bc-a820-12e1d58bd944",
                     "path": "<Keyboard>/a",
                     "interactions": "",
