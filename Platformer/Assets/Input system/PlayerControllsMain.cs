@@ -57,6 +57,14 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""FirewormholeGun"",
+                    ""type"": ""Button"",
+                    ""id"": ""53c54d98-8ccd-4782-aec4-7b7ff83ccde2"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -125,6 +133,28 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
                     ""action"": ""BackMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""48a83c25-7b7c-4db7-baf4-73e20eb94bd5"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FirewormholeGun"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0aa64f87-cbd0-4b4c-8dd3-8a0ee558e5c3"",
+                    ""path"": ""<Keyboard>/i"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FirewormholeGun"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -138,6 +168,7 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
         m_GamePlay_LeftMovement = m_GamePlay.FindAction("LeftMovement", throwIfNotFound: true);
         m_GamePlay_RightMovement = m_GamePlay.FindAction("RightMovement", throwIfNotFound: true);
         m_GamePlay_BackMovement = m_GamePlay.FindAction("BackMovement", throwIfNotFound: true);
+        m_GamePlay_FirewormholeGun = m_GamePlay.FindAction("FirewormholeGun", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -192,6 +223,7 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
     private readonly InputAction m_GamePlay_LeftMovement;
     private readonly InputAction m_GamePlay_RightMovement;
     private readonly InputAction m_GamePlay_BackMovement;
+    private readonly InputAction m_GamePlay_FirewormholeGun;
     public struct GamePlayActions
     {
         private @PlayerControllsMain m_Wrapper;
@@ -201,6 +233,7 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
         public InputAction @LeftMovement => m_Wrapper.m_GamePlay_LeftMovement;
         public InputAction @RightMovement => m_Wrapper.m_GamePlay_RightMovement;
         public InputAction @BackMovement => m_Wrapper.m_GamePlay_BackMovement;
+        public InputAction @FirewormholeGun => m_Wrapper.m_GamePlay_FirewormholeGun;
         public InputActionMap Get() { return m_Wrapper.m_GamePlay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -225,6 +258,9 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
                 @BackMovement.started -= m_Wrapper.m_GamePlayActionsCallbackInterface.OnBackMovement;
                 @BackMovement.performed -= m_Wrapper.m_GamePlayActionsCallbackInterface.OnBackMovement;
                 @BackMovement.canceled -= m_Wrapper.m_GamePlayActionsCallbackInterface.OnBackMovement;
+                @FirewormholeGun.started -= m_Wrapper.m_GamePlayActionsCallbackInterface.OnFirewormholeGun;
+                @FirewormholeGun.performed -= m_Wrapper.m_GamePlayActionsCallbackInterface.OnFirewormholeGun;
+                @FirewormholeGun.canceled -= m_Wrapper.m_GamePlayActionsCallbackInterface.OnFirewormholeGun;
             }
             m_Wrapper.m_GamePlayActionsCallbackInterface = instance;
             if (instance != null)
@@ -244,6 +280,9 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
                 @BackMovement.started += instance.OnBackMovement;
                 @BackMovement.performed += instance.OnBackMovement;
                 @BackMovement.canceled += instance.OnBackMovement;
+                @FirewormholeGun.started += instance.OnFirewormholeGun;
+                @FirewormholeGun.performed += instance.OnFirewormholeGun;
+                @FirewormholeGun.canceled += instance.OnFirewormholeGun;
             }
         }
     }
@@ -255,5 +294,6 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
         void OnLeftMovement(InputAction.CallbackContext context);
         void OnRightMovement(InputAction.CallbackContext context);
         void OnBackMovement(InputAction.CallbackContext context);
+        void OnFirewormholeGun(InputAction.CallbackContext context);
     }
 }

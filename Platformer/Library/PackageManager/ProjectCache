@@ -1,47 +1,47 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/s020850k/Documents/GitHub/platformer/Platformer/Packages/manifest.json
+    m_FilePath: C:/Users/matt2/Documents/GitHub/platformer/Platformer/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637807924726223565
-    m_Hash: 1368742596
+      ticks: 637813912843326715
+    m_Hash: 1417429805
   m_LockFileStatus:
-    m_FilePath: C:/Users/s020850k/Documents/GitHub/platformer/Platformer/Packages/packages-lock.json
+    m_FilePath: C:/Users/matt2/Documents/GitHub/platformer/Platformer/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637807925128121649
-    m_Hash: 3514882040
+      ticks: 637813914619508873
+    m_Hash: 1204445830
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz/package.json
+  - m_FilePath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz
+  - m_FilePath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637807867307579474
+      ticks: 637813912730039204
     m_Hash: 2919789393
-m_ProjectPath: C:/Users/s020850k/Documents/GitHub/platformer/Platformer/Packages
-m_EditorVersion: 2021.1.17f1 (03b40fe07a36)
+m_ProjectPath: C:/Users/matt2/Documents/GitHub/platformer/Platformer/Packages
+m_EditorVersion: 2021.1.7f1 (d91830b65d9b)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@1.7.1
   testable: 0
   isDirectDependency: 1
   version: 1.7.1
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.collab-proxy@1.7.1
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.collab-proxy@1.7.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -59,10 +59,86 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.2.3-preview
+    - 1.2.4-preview
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.11
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17-preview.3
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.9
+    - 1.5.7
+    - 1.6.0
     - 1.7.1
+    - 1.8.0
+    - 1.9.0
+    - 1.10.2
+    - 1.11.2
+    - 1.12.5
+    - 1.13.5
+    - 1.14.1
+    - 1.14.4
+    - 1.14.7
+    - 1.14.9
+    - 1.14.12
+    - 1.15.1
+    - 1.15.4
+    - 1.15.7
+    - 1.15.9
+    - 1.15.12
+    - 2.0.0-preview.6
+    - 2.0.0-preview.8
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.1.0-preview.3
+    - 2.1.0-preview.5
+    - 2.1.0-preview.6
     compatible:
+    - 1.3.9
+    - 1.4.9
+    - 1.5.7
+    - 1.6.0
     - 1.7.1
-    verified: 1.7.1
+    - 1.8.0
+    - 1.9.0
+    - 1.10.2
+    - 1.11.2
+    - 1.12.5
+    - 1.13.5
+    - 1.14.1
+    - 1.14.4
+    - 1.14.7
+    - 1.14.9
+    - 1.14.12
+    - 1.15.1
+    - 1.15.4
+    - 1.15.7
+    - 1.15.9
+    - 1.15.12
+    - 2.0.0-preview.6
+    - 2.0.0-preview.8
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.1.0-preview.3
+    - 2.1.0-preview.5
+    - 2.1.0-preview.6
+    verified: 1.3.9
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 2.0.0
@@ -95,7 +171,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637616921650000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -104,14 +180,14 @@ m_ResolvedPackages:
     revision: 30ef59f552633de9ff0401db4e73ac89982d4ac0
     path: 
   unityLifecycle:
-    version: 1.7.1
+    version: 1.3.9
     nextVersion: 
 - packageId: com.unity.ide.rider@3.0.7
   testable: 0
   isDirectDependency: 1
   version: 3.0.7
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ide.rider@3.0.7
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ide.rider@3.0.7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -128,10 +204,41 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.6
+    - 1.0.8
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2-preview.2
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4
+    - 1.2.0-preview
+    - 1.2.1
+    - 2.0.0-preview
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
     - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
     compatible:
+    - 3.0.6
     - 3.0.7
-    verified: 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    verified: 3.0.12
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -151,7 +258,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637572251600000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -160,14 +267,14 @@ m_ResolvedPackages:
     revision: 3007c42a679bbe2c082c276e8d79279110964553
     path: 
   unityLifecycle:
-    version: 3.0.7
+    version: 3.0.6
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.9
   testable: 0
   isDirectDependency: 1
   version: 2.0.9
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ide.visualstudio@2.0.9
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ide.visualstudio@2.0.9
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -184,10 +291,31 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 2.0.8
     - 2.0.9
+    - 2.0.11
+    - 2.0.12
+    - 2.0.14
     compatible:
+    - 2.0.7
+    - 2.0.8
     - 2.0.9
-    verified: 2.0.9
+    - 2.0.11
+    - 2.0.12
+    - 2.0.14
+    verified: 2.0.14
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -213,7 +341,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637580705480000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -222,14 +350,14 @@ m_ResolvedPackages:
     revision: c7cd4c6319806423b3d918b3e9599244e3993d41
     path: 
   unityLifecycle:
-    version: 2.0.9
+    version: 2.0.7
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.3
   testable: 0
   isDirectDependency: 1
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ide.vscode@1.2.3
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ide.vscode@1.2.3
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -246,10 +374,22 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
     - 1.2.3
+    - 1.2.4
     compatible:
     - 1.2.3
-    verified: 1.2.3
+    - 1.2.4
+    verified: 1.2.4
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -265,7 +405,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637394922300000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -281,7 +421,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.inputsystem@1.0.2
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.inputsystem@1.0.2
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -297,9 +437,48 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
     - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
     compatible:
     - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
     verified: 1.0.2
   dependencies: []
   resolvedDependencies: []
@@ -324,12 +503,12 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637468486210000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/InputSystem.git
+    url: git+https://github.com/Unity-Technologies/InputSystem.git
     revision: 041def76515febb36a83d1f928cfb7aefb85176c
     path: 
   unityLifecycle:
@@ -340,7 +519,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.27
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.test-framework@1.1.27
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.test-framework@1.1.27
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -355,10 +534,49 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.4-preview
+    - 0.0.29-preview
+    - 1.0.0
+    - 1.0.7
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.13
+    - 1.0.14
+    - 1.0.16
+    - 1.0.17
+    - 1.0.18
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.5
+    - 1.1.8
+    - 1.1.9
+    - 1.1.11
+    - 1.1.13
+    - 1.1.14
+    - 1.1.16
+    - 1.1.18
+    - 1.1.19
+    - 1.1.20
+    - 1.1.22
+    - 1.1.24
+    - 1.1.26
     - 1.1.27
+    - 1.1.29
+    - 1.1.30
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
+    - 1.1.24
+    - 1.1.26
     - 1.1.27
-    verified: 1.1.27
+    - 1.1.29
+    - 1.1.30
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
+    verified: 1.1.30
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -388,23 +606,23 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637594751620000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+    url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
     revision: c2f2cc9b7ea61d42964257363595dff5e8c47c42
     path: 
   unityLifecycle:
-    version: 1.1.27
+    version: 1.1.24
     nextVersion: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -438,9 +656,94 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.2
+    - 1.0.21
+    - 1.0.23
+    - 1.0.25
+    - 1.0.26
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-preview
+    - 1.3.0
+    - 1.4.0-preview.1b
+    - 1.4.0-preview.2a
+    - 1.4.0-preview.3a
+    - 1.4.0
+    - 1.4.1-preview.1
+    - 1.4.1
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 1.5.0-preview.8
+    - 1.5.0-preview.10
+    - 1.5.0-preview.11
+    - 1.5.0-preview.12
+    - 1.5.0-preview.13
+    - 1.5.0-preview.14
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.6.0-preview.1
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.1
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.1.0-preview.8
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 2.1.0-preview.12
+    - 2.1.0-preview.13
+    - 2.1.0-preview.14
+    - 2.1.0
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 3.0.0-preview.1
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.5
+    - 3.0.0-preview.7
+    - 3.0.0-preview.8
+    - 3.0.0-preview.10
+    - 3.0.0-preview.11
+    - 3.0.0-preview.12
+    - 3.0.0-preview.13
+    - 3.0.0-preview.14
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
     - 3.0.6
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 4.0.0-pre.1
     compatible:
+    - 3.0.4
+    - 3.0.5
     - 3.0.6
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -470,7 +773,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637547111200000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -479,14 +782,14 @@ m_ResolvedPackages:
     revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 3.0.4
     nextVersion: 
 - packageId: com.unity.timeline@1.5.6
   testable: 0
   isDirectDependency: 1
   version: 1.5.6
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.timeline@1.5.6
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.timeline@1.5.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -502,10 +805,92 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.10
+    - 1.2.11
+    - 1.2.12
+    - 1.2.13
+    - 1.2.14
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17
+    - 1.2.18
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.5
+    - 1.4.0-preview.6
+    - 1.4.0-preview.7
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.5.0-pre.2
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.1-pre.1
+    - 1.5.1-pre.2
+    - 1.5.1-pre.3
+    - 1.5.2
+    - 1.5.4
+    - 1.5.5
     - 1.5.6
+    - 1.5.7
+    - 1.6.0-pre.1
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0-pre.5
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
     compatible:
+    - 1.5.4
+    - 1.5.5
     - 1.5.6
-    verified: 1.5.6
+    - 1.5.7
+    - 1.6.0-pre.1
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0-pre.5
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    verified: 1.5.7
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -542,7 +927,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637613662510000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -551,14 +936,14 @@ m_ResolvedPackages:
     revision: bba45362fa74fde39bfa14d05688da527254b39f
     path: 
   unityLifecycle:
-    version: 1.5.6
+    version: 1.5.4
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -623,7 +1008,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.1
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.visualscripting@1.6.1
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.visualscripting@1.6.1
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -632,7 +1017,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: "Visual Scripting, previously known as BOLT, is an alternative workflow
     to design behaviours. Instead of the classic method of writing a C# script, visual
     scripting offers a way to design behaviours intuitively without code, by connecting
@@ -644,9 +1029,27 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
     - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.8.0-pre.1
     compatible:
     - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
     verified: 1.6.1
   dependencies:
   - name: com.unity.ugui
@@ -695,7 +1098,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637547228050000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -711,7 +1114,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.2.1
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.management@4.2.1
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.management@4.2.1
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -778,6 +1181,9 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.2.1
     compatible:
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
     - 4.0.7
     - 4.1.0-pre.1
     - 4.1.0-pre.2
@@ -808,7 +1214,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
+    version: 2.1.7
   - name: com.unity.subsystemregistration
     version: 1.1.0
   keywords:
@@ -840,14 +1246,14 @@ m_ResolvedPackages:
     revision: 9c99228887ff65cc0729434b3b9371d22b707cb9
     path: 
   unityLifecycle:
-    version: 4.0.7
+    version: 4.0.3
     nextVersion: 
 - packageId: com.unity.xr.openxr@1.2.3
   testable: 0
   isDirectDependency: 1
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.openxr@1.2.3
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.openxr@1.2.3
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -864,10 +1270,27 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.1-preview.1
+    - 0.1.2-preview.2
+    - 1.0.0-pre.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.1
+    - 1.2.0
+    - 1.2.2
     - 1.2.3
+    - 1.2.8
+    - 1.3.0
+    - 1.3.1
     compatible:
+    - 1.1.1
+    - 1.2.0
+    - 1.2.2
     - 1.2.3
-    verified: 1.2.3
+    - 1.2.8
+    - 1.3.0
+    - 1.3.1
+    verified: 1.1.1
   dependencies:
   - name: com.unity.xr.management
     version: 4.0.1
@@ -889,7 +1312,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
+    version: 2.1.7
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.inputsystem
@@ -911,7 +1334,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637604975860000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -920,14 +1343,14 @@ m_ResolvedPackages:
     revision: 683b7326f78d42b2fa865f94f5e1163d7ab0aa72
     path: 
   unityLifecycle:
-    version: 1.2.3
+    version: 1.1.1
     nextVersion: 
 - packageId: com.unity.xr.windowsmr@5.3.0
   testable: 0
   isDirectDependency: 1
   version: 5.3.0
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.windowsmr@5.3.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.windowsmr@5.3.0
   assetPath: Packages/com.unity.xr.windowsmr
   name: com.unity.xr.windowsmr
   displayName: Windows XR Plugin
@@ -947,9 +1370,64 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.9
+    - 2.0.1
+    - 2.0.3-preview.1
+    - 2.0.3
+    - 2.0.4-preview.3
+    - 2.0.4-preview.4
+    - 2.1.5
+    - 2.1.6-preview.1
+    - 2.1.6-preview.2
+    - 2.1.6-preview.3
+    - 2.2.0
+    - 2.3.0
+    - 2.3.1-preview.1
+    - 2.4.1-preview.1
+    - 2.4.1
+    - 2.5.2
+    - 2.6.0
+    - 2.6.1
+    - 2.7.0
+    - 2.8.0
+    - 2.9.0
+    - 2.9.1
+    - 2.9.2
+    - 3.0.0
+    - 3.0.1-preview.3
+    - 3.0.1-preview.4
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6-preview.1
+    - 3.1.6-preview.2
+    - 3.1.6-preview.3
+    - 3.2.0
+    - 3.3.1
+    - 3.4.0
+    - 4.0.2
+    - 4.1.1
+    - 4.2.1
+    - 4.3.2
+    - 4.4.0
+    - 4.4.1
+    - 4.4.2
+    - 4.5.0
+    - 4.6.0
+    - 4.6.1
+    - 4.6.2
+    - 5.0.0
+    - 5.1.0-exp.1
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
     - 5.3.0
+    - 5.4.1
     compatible:
     - 5.3.0
+    - 5.4.1
     verified: 5.3.0
   dependencies:
   - name: com.unity.modules.subsystems
@@ -978,7 +1456,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.management
     version: 4.2.1
   - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
+    version: 2.1.7
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.xr.interactionsubsystems
@@ -1006,7 +1484,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637551426630000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1017,12 +1495,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 5.3.0
     nextVersion: 
-- packageId: com.valvesoftware.unity.openvr@file:C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz
+- packageId: com.valvesoftware.unity.openvr@file:C:\Users\matt2\Documents\GitHub\platformer\Platformer\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz
   testable: 0
   isDirectDependency: 1
   version: 1.1.4
   source: 6
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.valvesoftware.unity.openvr@49cb2bb7091a-1645189930758
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.valvesoftware.unity.openvr@a983158a57df-1645794473004
   assetPath: Packages/com.valvesoftware.unity.openvr
   name: com.valvesoftware.unity.openvr
   displayName: OpenVR XR Plugin
@@ -1061,7 +1539,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.xr
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.8
+    version: 2.1.7
   - name: com.unity.subsystemregistration
     version: 1.1.0
   - name: com.unity.ugui
@@ -1110,7 +1588,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1161,7 +1639,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1211,7 +1689,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1262,7 +1740,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1313,7 +1791,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1364,7 +1842,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1419,7 +1897,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1478,7 +1956,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1530,7 +2008,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1581,7 +2059,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1632,7 +2110,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1683,7 +2161,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1734,7 +2212,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1785,7 +2263,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1840,7 +2318,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1891,7 +2369,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1950,7 +2428,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2004,7 +2482,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2055,7 +2533,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2122,7 +2600,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2173,7 +2651,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2232,7 +2710,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2283,7 +2761,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2342,7 +2820,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2401,7 +2879,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2460,7 +2938,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2535,7 +3013,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2590,7 +3068,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2653,7 +3131,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2718,7 +3196,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2769,7 +3247,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2832,7 +3310,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2887,7 +3365,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -2944,12 +3422,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.xr.legacyinputhelpers@2.1.8
+- packageId: com.unity.xr.legacyinputhelpers@2.1.7
   testable: 0
   isDirectDependency: 0
-  version: 2.1.8
+  version: 2.1.7
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -2969,10 +3447,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.1.8
+    - 2.1.7
     compatible:
-    - 2.1.8
-    verified: 2.1.8
+    - 2.1.7
+    verified: 2.1.7
   dependencies:
   - name: com.unity.modules.vr
     version: 1.0.0
@@ -3013,17 +3491,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-    revision: ed3b32c709a0e51cf73fda4b200c59b48955c4be
+    revision: b2024928b8140a10ad43aeb5824d2f08bb8796bc
     path: 
   unityLifecycle:
-    version: 2.1.8
+    version: 2.1.7
     nextVersion: 
 - packageId: com.unity.xr.interactionsubsystems@1.0.1
   testable: 0
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
   assetPath: Packages/com.unity.xr.interactionsubsystems
   name: com.unity.xr.interactionsubsystems
   displayName: XR Interaction Subsystems
@@ -3085,7 +3563,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.1.7
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.arsubsystems@4.1.7
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.xr.arsubsystems@4.1.7
   assetPath: Packages/com.unity.xr.arsubsystems
   name: com.unity.xr.arsubsystems
   displayName: AR Subsystems
@@ -3147,7 +3625,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.0
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.subsystemregistration@1.1.0
   assetPath: Packages/com.unity.subsystemregistration
   name: com.unity.subsystemregistration
   displayName: Subsystem Registration
@@ -3207,7 +3685,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3223,9 +3701,16 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
     - 1.0.6
+    - 2.0.2
     compatible:
     - 1.0.6
+    - 2.0.2
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -3245,7 +3730,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637429759280000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3261,7 +3746,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.0
   source: 1
-  resolvedPath: C:\Users\s020850k\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+  resolvedPath: C:\Users\matt2\Documents\GitHub\platformer\Platformer\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -3270,7 +3755,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: library
+  type: 
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
     synced to version 12.0.2.
 
@@ -3285,10 +3770,22 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
     - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
     compatible:
     - 2.0.0
-    verified: 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    verified: 2.0.2
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3304,7 +3801,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637237898320000000
   documentationUrl: 
   hasRepository: 1
   repository:

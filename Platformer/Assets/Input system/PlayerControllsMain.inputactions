@@ -44,6 +44,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "FirewormholeGun",
+                    "type": "Button",
+                    "id": "53c54d98-8ccd-4782-aec4-7b7ff83ccde2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -110,6 +118,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "BackMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "48a83c25-7b7c-4db7-baf4-73e20eb94bd5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FirewormholeGun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0aa64f87-cbd0-4b4c-8dd3-8a0ee558e5c3",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FirewormholeGun",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

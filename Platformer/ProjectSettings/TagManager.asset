@@ -7,6 +7,8 @@ TagManager:
   - Damage
   - Portal1
   - Portal2
+  - OrangeIndicator
+  - BlueIndicator
   layers:
   - Default
   - TransparentFX
