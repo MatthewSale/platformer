@@ -3,11 +3,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Utilities;
 
-public class @PlayerControllsMain : IInputActionCollection, IDisposable
+
+public class @PlayerControllsMain
 {
+    /*
     public InputActionAsset asset { get; }
     public @PlayerControllsMain()
     {
@@ -296,4 +296,5 @@ public class @PlayerControllsMain : IInputActionCollection, IDisposable
         void OnBackMovement(InputAction.CallbackContext context);
         void OnFirewormholeGun(InputAction.CallbackContext context);
     }
+    */
 }

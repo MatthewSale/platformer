@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TestingMovmentScript : MonoBehaviour
 {
+    /*
     // controlls variable
     PlayerControllsMain controlls;
 
@@ -49,8 +50,8 @@ public class TestingMovmentScript : MonoBehaviour
         //Forward Movement
         if (can_move_forward == true)
         {
-            Vector3 alsoMove = transform.forward * speed;
-            C_controller.Move(alsoMove * 1 * Time.deltaTime);
+          //  Rigidbody alsoMove(transform.forward * speed);
+        //   C_controller.Move(alsoMove * 1 * Time.deltaTime);
         }
         //Left movement
         if (can_move_left == true)
@@ -136,4 +137,5 @@ public class TestingMovmentScript : MonoBehaviour
     {
         controlls.GamePlay.Disable();
     }
+    */
 }
