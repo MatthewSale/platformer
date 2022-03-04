@@ -10,16 +10,19 @@ public class PortalSpawningScript : MonoBehaviour
     public GameObject Orange_Indicator;
 
     public Transform barral;
+   
 
     public GameObject WormHole_Bullet_blue;
     public GameObject WormHole_Bullet_orange;
 
     bool cool_down;
 
+    int speed = 1000;
+
     private void Awake()
     {
         controlls = new PlayerControllsMain();
-        controlls.GamePlay.FirewormholeGun.performed += con => WormHole();
+    //    controlls.GamePlay.FirewormholeGun.performed += con => WormHole();
     }
 
 
@@ -27,29 +30,32 @@ public class PortalSpawningScript : MonoBehaviour
     {
         Debug.Log("plese wormhole here?");
         if (cool_down == false)
-        {
+        {            
             if (Blue_Indicator.activeInHierarchy)
             {
-                Instantiate(WormHole_Bullet_blue, new Vector3(barral.position.x, barral.position.y, barral.position.z),new Quaternion(this.transform.rotation.w, this.transform.rotation.x, this.transform.rotation.y, this.transform.rotation.z));
+                GameObject Bullet = Instantiate(WormHole_Bullet_blue, barral.position, Quaternion.identity) as GameObject;
+                Bullet.transform.Rotate(new Vector3(barral.rotation.x, barral.rotation.y, barral.rotation.z));
+                Rigidbody BulletRigidbody = Bullet.GetComponent<Rigidbody>();
+                BulletRigidbody.AddForce(-transform.right * speed);
             }
             else
             {
-                Instantiate(WormHole_Bullet_orange, new Vector3(barral.position.x, barral.position.y, barral.position.z), Quaternion.identity);
+                GameObject bullet = Instantiate(WormHole_Bullet_blue, barral.position, Quaternion.identity);
+                bullet.GetComponent<Rigidbody>().AddForce(Vector3.forward * speed);
             }
             cool_down = true;
             StartCoroutine(delay());
         }
     }
 
-
     private void OnEnable()
     {
-        controlls.GamePlay.Enable();
+      //  controlls.GamePlay.Enable();
     }
 
     private void OnDisable()
     {
-        controlls.GamePlay.Disable();
+       // controlls.GamePlay.Disable();
     }
     IEnumerator delay()
     {
