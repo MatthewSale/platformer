@@ -127,4 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 0}
+  portal_rotation_holder: {fileID: 0}
   worm_hole_is_blue: 0
+  sound_cube: {fileID: 5430269577420745190, guid: 42c78e7f524462b4fa3100d3ea43460e,
+    type: 3}

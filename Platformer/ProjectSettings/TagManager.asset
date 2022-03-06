@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BlueIndicator
+  - OrangeIndicator
+  - Damage
+  - Portal1
+  - Portal2
+  - Blue_Indicator_visial
+  - Orange_Indicator_visial
+  - Portal1Rotation
+  - InversePlayer
   layers:
   - Default
   - TransparentFX
