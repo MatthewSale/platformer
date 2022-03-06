@@ -13,6 +13,7 @@ TagManager:
   - Orange_Indicator_visial
   - Portal1Rotation
   - InversePlayer
+  - PauseMenu
   layers:
   - Default
   - TransparentFX

@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\PortalScript.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\Scripts\WormHoleBUlletSctipr.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuContrillScript.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\Scripts\TestingMovmentScript.cs" />
     <Compile Include="Assets\Scripts\PortalRotationfixerScript.cs" />
