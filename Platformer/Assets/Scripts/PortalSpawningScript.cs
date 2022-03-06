@@ -16,7 +16,7 @@ public class PortalSpawningScript : MonoBehaviour
 
     AudioSource Thwump_sound;
 
-    bool anim_toggle=true;
+    bool anim_toggle=false;
 
     bool cool_down;
 

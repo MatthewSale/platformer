@@ -7,10 +7,19 @@ public class PortalTeleporter : MonoBehaviour {
 	public Transform player;
 	public Transform reciever;
 
+	int crack_variable;
+
+	AudioSource crack;
+
 	private bool playerIsOverlapping = false;
 
-	// Update is called once per frame
-	void Update () {
+
+    private void Start()
+    {
+		crack = this.GetComponent<AudioSource>();
+    }
+
+    void Update () {
 		if (playerIsOverlapping)
 		{
 			Vector3 portalToPlayer = player.position - transform.position;
@@ -31,12 +40,16 @@ public class PortalTeleporter : MonoBehaviour {
 			}
 		}
 	}
-
 	void OnTriggerEnter (Collider other)
 	{
 		if (other.tag == "Player")
 		{
 			playerIsOverlapping = true;
+			crack_variable = Random.Range(0, 6);
+			if(crack_variable == 4)
+            {
+				crack.Play();
+            }
 		}
 	}
 
