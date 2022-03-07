@@ -126,29 +126,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3480}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 4626}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 4864}
+      Script: {instanceID: 4628}
     - Class: 114
       Script: {instanceID: 4866}
     - Class: 114
-      Script: {instanceID: 5014}
+      Script: {instanceID: 4868}
     - Class: 114
-      Script: {instanceID: 5052}
+      Script: {instanceID: 5016}
     - Class: 114
-      Script: {instanceID: 5196}
+      Script: {instanceID: 5054}
     - Class: 114
-      Script: {instanceID: 5660}
+      Script: {instanceID: 5198}
     - Class: 114
-      Script: {instanceID: 5818}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 6032}
+      Script: {instanceID: 5820}
     - Class: 114
-      Script: {instanceID: 33358}
+      Script: {instanceID: 6034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -704,7 +704,7 @@ ScriptsOnlyBuild:
     className: LockToPoint
   - hash:
       serializedVersion: 2
-      Hash: e0d2937bf711570c3f6663035704f234
+      Hash: 3821752097d35b0d5b34966eefc22024
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PortalSpawningScript
@@ -930,6 +930,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem.Sample
     className: TargetHitEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 27ac8962be03f78faa45b99bc89ee7d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenuContrillScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2090,10 +2096,34 @@ ScriptsOnlyBuild:
     className: SteamVR_Behaviour_Single
   - hash:
       serializedVersion: 2
-      Hash: 27ac8962be03f78faa45b99bc89ee7d2
+      Hash: 4fb2059caa7215e1505829bdcfbf177c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PauseMenuContrillScript
+    className: U10PS_MouseRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 33badda6b92c3e875f259be12aad6481
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Plexus
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: U10PS_SnowOverTime
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: U10PS_DissolveOverTime
+  - hash:
+      serializedVersion: 2
+      Hash: 6f6522516784e5c18d9ac1917fc0e318
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: U10PS_ExampleReview
   platform: 19
   scenePathNames:
   - Assets/Portal.unity

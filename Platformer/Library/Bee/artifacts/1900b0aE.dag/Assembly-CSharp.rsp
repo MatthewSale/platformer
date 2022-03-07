@@ -398,6 +398,11 @@
 "Assets/Scripts/PortalSpawningScript.cs"
 "Assets/Scripts/TestingMovmentScript.cs"
 "Assets/Scripts/WormHoleBUlletSctipr.cs"
+"Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_DissolveOverTime.cs"
+"Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_ExampleReview.cs"
+"Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_MouseRotation.cs"
+"Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_SnowOverTime.cs"
+"Assets/Ultimate 10 Plus Shaders/Shaders/Plexus/Plexus.cs"
 -langversion:8.0
 
 /deterministic
