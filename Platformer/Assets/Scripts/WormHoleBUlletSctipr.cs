@@ -5,7 +5,7 @@ using UnityEngine;
 public class WormHoleBUlletSctipr : MonoBehaviour
 {    
     public GameObject portal;
-    public GameObject portal_rotation_holder;
+    
     public bool worm_hole_is_blue;
     GameObject Player;
     GameObject inverse_player;

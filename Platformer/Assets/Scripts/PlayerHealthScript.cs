@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class PlayerHealthScript : MonoBehaviour
 {
     public float Player_health;
@@ -30,6 +31,11 @@ public class PlayerHealthScript : MonoBehaviour
         }
         slider_delayed.value = Player_health;
         slider_sudden.value = Delay_value;
+
+        if(Delay_value <= 0)
+        {
+            SceneManager.LoadScene("Dead");
+        }
     }
 
     IEnumerator delay1()

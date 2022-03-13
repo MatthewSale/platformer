@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5cdee445443a29c46930fc4665736a21, type: 2}
+  - {fileID: 2100000, guid: 32a76832b79e84347ad9df08b12709c3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,7 +127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 0}
-  portal_rotation_holder: {fileID: 0}
   worm_hole_is_blue: 1
   sound_cube: {fileID: 5430269577420745190, guid: 42c78e7f524462b4fa3100d3ea43460e,
     type: 3}

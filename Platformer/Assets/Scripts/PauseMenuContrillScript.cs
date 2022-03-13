@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PauseMenuContrillScript : MonoBehaviour
 {
     public GameObject Pause_ui;
@@ -35,6 +35,11 @@ public class PauseMenuContrillScript : MonoBehaviour
         toggle = false;
     }
 
+    public void Back_to_Menu()
+    {
+        toggle = false;
+        SceneManager.LoadScene("Main Menu");        
+    }
     public void CloseGame()
     {
         Application.Quit();

@@ -66,6 +66,11 @@ public class PortalSpawningScript : MonoBehaviour
             }
         }
 
+        if(cooldown_meater >= 100)
+        {
+            cool_down = false;
+        }
+
        if(Input.GetKeyDown("i"))
        {
             anim.SetBool("blue", anim_toggle);
@@ -75,8 +80,7 @@ public class PortalSpawningScript : MonoBehaviour
     IEnumerator delay()
     {
         yield return new WaitForSeconds(5);
-        cool_down = false;
-        cooldown_meater = 100;
+          
     }
 
     IEnumerator delay1()
