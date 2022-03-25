@@ -391,6 +391,7 @@
 "Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
 "Assets/Scripts/CamfraFadeScript.cs"
 "Assets/Scripts/MainMenuScript.cs"
+"Assets/Scripts/MirrorObjectDcript.cs"
 "Assets/Scripts/MoveFowardAlways.cs"
 "Assets/Scripts/PauseMenuContrillScript.cs"
 "Assets/Scripts/PlayerHealthScript.cs"

@@ -9,20 +9,26 @@ public class TurnOffWallWithRayCastScript : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        wall = other.gameObject;
-        if (is_orange == true)
+        if (other.tag == ("wall"))
         {
-            wall.layer = 6;
-        }
-        else
-        {
-            wall.layer = 7;
+            wall = other.gameObject;
+            if (is_orange == true)
+            {
+                wall.layer = 6;
+            }
+            else
+            {
+                wall.layer = 7;
+            }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        wall = other.gameObject;
-        wall.layer = 0;
+        if (other.tag == ("wall"))
+        {
+            wall = other.gameObject;
+            wall.layer = 0;
+        }        
     }
 }

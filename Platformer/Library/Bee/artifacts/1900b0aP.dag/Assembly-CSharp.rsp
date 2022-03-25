@@ -357,6 +357,7 @@
 "Assets/Scripts/PortalSelectionScript.cs"
 "Assets/Scripts/PortalSpawningScript.cs"
 "Assets/Scripts/TestingMovmentScript.cs"
+"Assets/Scripts/TurnOffWallWithRayCastScript.cs"
 "Assets/Scripts/WormHoleBUlletSctipr.cs"
 "Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_DissolveOverTime.cs"
 "Assets/Ultimate 10 Plus Shaders/Scripts/U10PS_ExampleReview.cs"

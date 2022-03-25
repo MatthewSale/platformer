@@ -112,6 +112,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Scripts\TurnOffWallWithRayCastScript.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
@@ -125,7 +126,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\TurnOffWallWithRayCastScript.cs" />
+    <Compile Include="Assets\Scripts\MirrorObjectDcript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
