@@ -27,6 +27,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+        public bool is_copy;
 
         private Camera m_Camera;
         private bool m_Jump;
@@ -57,12 +58,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            Pause_menu = GameObject.FindGameObjectWithTag("PauseMenu");
         }
 
 
         // Update is called once per frame
         private void Update()
         {
+            if(Pause_menu == null)
+            {
+                Pause_menu = GameObject.FindGameObjectWithTag("PauseMenu");
+            }    
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
@@ -88,13 +94,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void PlayLandingSound()
         {
-            m_AudioSource.clip = m_LandSound;
-            m_AudioSource.Play();
-            m_NextStep = m_StepCycle + .5f;
+            if (is_copy == false)
+            {
+                m_AudioSource.clip = m_LandSound;
+                m_AudioSource.Play();
+                m_NextStep = m_StepCycle + .5f;
+            }
         }
 
 
-        private void FixedUpdate()
+            private void FixedUpdate()
         {
             float speed;
             GetInput(out speed);
@@ -138,8 +147,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void PlayJumpSound()
         {
-            m_AudioSource.clip = m_JumpSound;
-            m_AudioSource.Play();
+            if (is_copy == false)
+            {
+                m_AudioSource.clip = m_JumpSound;
+                m_AudioSource.Play();
+            }
         }
 
 
@@ -164,22 +176,25 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void PlayFootStepAudio()
         {
-            if (!m_CharacterController.isGrounded)
+            if (is_copy == false)
             {
-                return;
+                if (!m_CharacterController.isGrounded)
+                {
+                    return;
+                }
+                // pick & play a random footstep sound from the array,
+                // excluding sound at index 0
+                int n = Random.Range(1, m_FootstepSounds.Length);
+                m_AudioSource.clip = m_FootstepSounds[n];
+                m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                // move picked sound to index 0 so it's not picked next time
+                m_FootstepSounds[n] = m_FootstepSounds[0];
+                m_FootstepSounds[0] = m_AudioSource.clip;
             }
-            // pick & play a random footstep sound from the array,
-            // excluding sound at index 0
-            int n = Random.Range(1, m_FootstepSounds.Length);
-            m_AudioSource.clip = m_FootstepSounds[n];
-            m_AudioSource.PlayOneShot(m_AudioSource.clip);
-            // move picked sound to index 0 so it's not picked next time
-            m_FootstepSounds[n] = m_FootstepSounds[0];
-            m_FootstepSounds[0] = m_AudioSource.clip;
         }
 
 
-        private void UpdateCameraPosition(float speed)
+            private void UpdateCameraPosition(float speed)
         {
             Vector3 newCameraPosition;
             if (!Pause_menu.activeInHierarchy)

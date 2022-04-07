@@ -4,28 +4,55 @@ using UnityEngine;
 
 public class MirrorObjectDcript : MonoBehaviour
 {
-    public GameObject Player;
-    GameObject Portal;
-    
-    public Vector3 mirrored_transform;
-    public Transform players_position;
-    Vector3 offset_position;
-    Vector3 portal_position;
+    public GameObject Things_to_duplicate;
+    GameObject portal_blue;
+    GameObject portal_orange;
+
+    GameObject player;
+
+    bool is_blue_Portal;
+    bool duplicate;
+    bool toggle;
 
     private void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        Portal = GameObject.FindGameObjectWithTag("p");
+        portal_blue = GameObject.FindGameObjectWithTag("Portal1");
+        portal_orange = GameObject.FindGameObjectWithTag("Portal2");
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag==("Player"))
+        {
+           duplicate = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+      //  Destroy(Things_to_duplicate);
+        duplicate = false;
     }
 
     private void Update()
     {
-        players_position = Player.transform;
-
-        offset_position = portal_position - new Vector3(players_position.position.x, players_position.position.y, players_position.position.z);
-
-
-        mirrored_transform = new Vector3(players_position.position.x, -players_position.position.y, -players_position.position.z) + offset_position;        
-        this.transform.position = mirrored_transform;
+        if (toggle == false)
+        {
+            if (duplicate == true)
+            {
+                if (is_blue_Portal == true)
+                {
+                    Instantiate(Things_to_duplicate, portal_orange.transform.position, player.transform.rotation);
+                    //Things_to_duplicate.transform.parent = player;
+                    toggle = true;
+                }
+                else
+                {
+                    Instantiate(Things_to_duplicate, portal_blue.transform.position, player.transform.rotation);
+                    toggle = true;
+                }
+            }
+        }
     }
 }
