@@ -19,7 +19,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PortalGunLayer
   - Water
   - UI
   - portal 1 layer
@@ -51,4 +51,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: seethough layer
+    uniqueID: 2652367843
     locked: 0
