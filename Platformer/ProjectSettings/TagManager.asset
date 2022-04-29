@@ -15,16 +15,22 @@ TagManager:
   - InversePlayer
   - PauseMenu
   - wall
+  - projectile
+  - FxTemporaire
+  - Fire
+  - Wormhole cannon
+  - Sparks
+  - renderPlane
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - PortalGunLayer
+  - 
   - Water
   - UI
   - portal 1 layer
   - portal 2 layer
-  - 
+  - CannonLayer
   - 
   - 
   - 
@@ -51,7 +57,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: seethough layer
-    uniqueID: 2652367843
     locked: 0

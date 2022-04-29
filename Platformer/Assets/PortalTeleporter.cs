@@ -18,6 +18,9 @@ public class PortalTeleporter : MonoBehaviour {
 	public AudioClip crack_4;
 	public AudioClip crack_5;
 
+	public GameObject particals;
+	public GameObject render_plane;
+
 	private bool playerIsOverlapping = false;
 
 
@@ -66,7 +69,7 @@ public class PortalTeleporter : MonoBehaviour {
 				Audio_hanadler.clip = crack[Random.Range(0, crack.Length)];
 				Audio_hanadler.Play();
             }
-		}
+		}		
 	}
 
 	void OnTriggerExit (Collider other)

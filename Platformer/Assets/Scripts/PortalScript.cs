@@ -10,6 +10,7 @@ public class PortalScript : MonoBehaviour
     public bool cool_down = false;
     GameObject portal_this;
     public GameObject portal_linking;
+    public GameObject particals;
 
     private void Start()
     {
@@ -53,6 +54,8 @@ public class PortalScript : MonoBehaviour
             }
            
         }
+
+        Instantiate(particals, other.transform.position, Quaternion.identity);
     }
 
     IEnumerator Delay()
