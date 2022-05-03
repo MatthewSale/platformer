@@ -21,6 +21,7 @@ TagManager:
   - Wormhole cannon
   - Sparks
   - renderPlane
+  - Press_E_object
   layers:
   - Default
   - TransparentFX

@@ -33,10 +33,13 @@ public class WormHoleBUlletSctipr : MonoBehaviour
         if (worm_hole_is_blue == true)
         {
             portal.transform.rotation = Player.transform.rotation;
+            portal.transform.parent = collision.transform;
+
         }
         else
         {
             portal.transform.rotation = inverse_player.transform.rotation;
+            portal.transform.parent = collision.transform;
         }
         Destroy(gameObject);
     }

@@ -15,7 +15,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("Portal");
+        SceneManager.LoadScene("LevleOne");
     }
 
     public void BackToMenu()

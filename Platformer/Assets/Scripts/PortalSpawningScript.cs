@@ -14,7 +14,7 @@ public class PortalSpawningScript : MonoBehaviour
 
     public Animator anim;
 
-    GameObject Pause_menu;
+    public GameObject Pause_menu;
 
     AudioSource Thwump_sound;
 
@@ -29,8 +29,7 @@ public class PortalSpawningScript : MonoBehaviour
 
     private void Start()
     {
-        Thwump_sound = this.GetComponent<AudioSource>();
-        Pause_menu = GameObject.FindGameObjectWithTag("PauseMenu");
+        Thwump_sound = this.GetComponent<AudioSource>();        
     }
 
     private void Update()

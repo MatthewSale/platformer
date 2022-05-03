@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dead.unity
     guid: a054ac090fffb0e4e8e7adfe4cdb43d8
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LevleOne.unity
     guid: 8af174aa5e3f0bd4b95d0190662dc265
   m_configObjects: {}
