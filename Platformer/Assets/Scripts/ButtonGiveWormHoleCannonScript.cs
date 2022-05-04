@@ -17,6 +17,7 @@ public class ButtonGiveWormHoleCannonScript : MonoBehaviour
         sound = this.GetComponent<AudioSource>();
         WormHole_Cannon = GameObject.FindGameObjectWithTag("Wormhole cannon");
         WormHole_Cannon.SetActive(false);
+     
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,9 +35,9 @@ public class ButtonGiveWormHoleCannonScript : MonoBehaviour
             {
                 anim.SetBool("Pressed", true);
                 StartCoroutine(Delay());
-                cooldown = true;
-                WormHole_Cannon.SetActive(true);
+                cooldown = true;               
                 sound.Play();
+                WormHole_Cannon.SetActive(true);
             }
         }
     }
