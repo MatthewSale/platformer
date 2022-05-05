@@ -15,11 +15,11 @@ C:/Users/matt2/Documents/GitHub/platformer/Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52281
+50044
 Successfully changed project path to: C:/Users/matt2/Documents/GitHub/platformer/Platformer
 C:/Users/matt2/Documents/GitHub/platformer/Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 91.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -36,168 +36,1029 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001209 seconds.
+Registered in 0.001493 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
+- Completed reload, in  1.566 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005409 seconds.
+Registered in 0.005839 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.117 seconds
+- Completed reload, in  2.913 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2458 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.0 MB.
-System memory in use after: 120.2 MB.
+Unloading 2459 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.3 MB.
 
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2885.
-Total: 9.249400 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.187500 ms MarkObjects: 8.492000 ms  DeleteObjects: 0.299800 ms)
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2886.
+Total: 8.582000 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.134400 ms MarkObjects: 7.986600 ms  DeleteObjects: 0.231000 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Voice lands
+  artifactKey: Guid(818e17fdc67cf4b41bbb2cc3d4afa91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands using Guid(818e17fdc67cf4b41bbb2cc3d4afa91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdb967289832d90c6fe3978229dacb8') in 0.011610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.714341 seconds.
+  path: Assets/Voice lands/VL1.mp3
+  artifactKey: Guid(c325cd8f01529e845988543e78aad782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL1.mp3 using Guid(c325cd8f01529e845988543e78aad782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d26f20bf70c3070888f5de5f708162') in 0.133611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Voice lands/VL13.mp3
+  artifactKey: Guid(74f22408ef188e143b4748cd4847683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL13.mp3 using Guid(74f22408ef188e143b4748cd4847683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fa75844cbce3bd19b3ca04b3e64c05') in 0.015906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Voice lands/VL10.mp3
+  artifactKey: Guid(e50c032852a96b34fb9647856c0e4c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL10.mp3 using Guid(e50c032852a96b34fb9647856c0e4c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda38e345513baf30c57ca863a74af9b') in 0.014264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Voice lands/VL6.mp3
+  artifactKey: Guid(792243ef8f85b8d4b8cff6451aa8abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL6.mp3 using Guid(792243ef8f85b8d4b8cff6451aa8abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c368863c4394da9499c93475d0d45d') in 0.013707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Voice lands/VL7.mp3
+  artifactKey: Guid(705957f3e8ba78a4fbec5496503e3ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL7.mp3 using Guid(705957f3e8ba78a4fbec5496503e3ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a75a9140233388bad282c00ccc4833') in 0.013642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Voice lands/VL5.mp3
+  artifactKey: Guid(fad19322a2d31854dad1e7c102454b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL5.mp3 using Guid(fad19322a2d31854dad1e7c102454b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaca391e32948cf81423b4f3ff63cfb') in 0.016595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Voice lands/VL16.mp3
+  artifactKey: Guid(5850416d8ac7adb4ebaf8ddab972851c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL16.mp3 using Guid(5850416d8ac7adb4ebaf8ddab972851c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec5d584b33194c6f88f93ca915c5a08') in 0.017054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Voice lands/VL12.mp3
+  artifactKey: Guid(ab9fb548bbe220348a7c7c94f7887feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL12.mp3 using Guid(ab9fb548bbe220348a7c7c94f7887feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285ddd29b8ce3d018016f900a7a4a27b') in 0.014839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Voice lands/VL2.mp3
+  artifactKey: Guid(9793243ec0d9f9640b20668b62e21b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL2.mp3 using Guid(9793243ec0d9f9640b20668b62e21b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b092f59bf11f0a9ea89546509c811d1') in 0.014596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Voice lands/VL14.mp3
+  artifactKey: Guid(bffdbefd4eeb4a6458f1eddf8afc1e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL14.mp3 using Guid(bffdbefd4eeb4a6458f1eddf8afc1e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94feec0798283136cf94ca747e9963bd') in 0.015627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Voice lands/VL4.mp3
+  artifactKey: Guid(11ab9bd0b47aad541a1885340c4bb14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL4.mp3 using Guid(11ab9bd0b47aad541a1885340c4bb14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2a76eb466ce515ff1c5718888fffe3') in 0.015704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Voice lands/VL8.mp3
+  artifactKey: Guid(fc894f885a349a84bbc6bf9f1566a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL8.mp3 using Guid(fc894f885a349a84bbc6bf9f1566a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083b2f3bb1d9bf619e5fdfa2cd5564b2') in 0.014256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Voice lands/VL15.mp3
+  artifactKey: Guid(4393c1b9d0664af4cb16a24b090be203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL15.mp3 using Guid(4393c1b9d0664af4cb16a24b090be203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a9ad3c30c4e548ce66b26b87e6f143') in 0.014620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Voice lands/VL3.mp3
+  artifactKey: Guid(6c04bb93ac66bbc44bbc99f4ab49f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL3.mp3 using Guid(6c04bb93ac66bbc44bbc99f4ab49f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2d3ec9982e8728c2ab09f1b6ceaa80') in 0.019059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Voice lands/VL11.mp3
+  artifactKey: Guid(fda9748401d901d41b9e39c595a5a359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL11.mp3 using Guid(fda9748401d901d41b9e39c595a5a359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50f7eac0f8d5264659799b2285590ec') in 0.012984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Voice lands/VL9.mp3
+  artifactKey: Guid(1d943c6c4b272214fab4cddb1cdf98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/VL9.mp3 using Guid(1d943c6c4b272214fab4cddb1cdf98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7732f3820f061c6c576b4bc5bcd606') in 0.013961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.013979 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(12ed6569643dbb546b6eaf63564d50b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(12ed6569643dbb546b6eaf63564d50b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0581026bbac776ca7f4ba81ab6c1b9c') in 0.009697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.233712 seconds.
   path: Assets/Scenes/LevleOne.unity
   artifactKey: Guid(8af174aa5e3f0bd4b95d0190662dc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevleOne.unity using Guid(8af174aa5e3f0bd4b95d0190662dc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd657128206ea4a6b46e388ee4c01235') in 0.023106 seconds 
+Start importing Assets/Scenes/LevleOne.unity using Guid(8af174aa5e3f0bd4b95d0190662dc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17527779ab1ea284104acd29faa153e4') in 0.028466 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003982 seconds.
+Registered in 0.006191 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.579 seconds
+- Completed reload, in  1.618 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2899.
+Total: 8.436800 ms (FindLiveObjects: 0.361400 ms CreateObjectMapping: 0.353500 ms MarkObjects: 7.685900 ms  DeleteObjects: 0.033800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.744829 seconds.
+  path: Assets/Scripts/VoiceLineManagerScript.cs
+  artifactKey: Guid(317f0e37e1f403042ad5630437e5843c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VoiceLineManagerScript.cs using Guid(317f0e37e1f403042ad5630437e5843c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaebc2d98c9504da41707324583156ef') in 0.076436 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.563 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.2 MB.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.1 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2888.
-Total: 7.141300 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.140700 ms MarkObjects: 6.743000 ms  DeleteObjects: 0.030200 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2902.
+Total: 8.060700 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.157000 ms MarkObjects: 7.620500 ms  DeleteObjects: 0.030100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007599 seconds.
+Registered in 0.006529 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.947 seconds
+- Completed reload, in  2.149 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.2 MB.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.1 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2891.
-Total: 6.887600 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.167200 ms MarkObjects: 6.424400 ms  DeleteObjects: 0.030300 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2905.
+Total: 9.162800 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.139900 ms MarkObjects: 8.733400 ms  DeleteObjects: 0.043500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009260 seconds.
+Registered in 0.006593 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.974 seconds
+- Completed reload, in  1.585 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.2 MB.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.1 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2894.
-Total: 9.278500 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.188700 ms MarkObjects: 8.758200 ms  DeleteObjects: 0.049600 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2908.
+Total: 7.573200 ms (FindLiveObjects: 0.247600 ms CreateObjectMapping: 0.145300 ms MarkObjects: 7.143000 ms  DeleteObjects: 0.035600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004522 seconds.
+Registered in 0.006372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.738 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2911.
+Total: 7.876800 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.229500 ms MarkObjects: 7.335500 ms  DeleteObjects: 0.036400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.534 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2914.
+Total: 8.469300 ms (FindLiveObjects: 0.240200 ms CreateObjectMapping: 0.142200 ms MarkObjects: 8.051300 ms  DeleteObjects: 0.034100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006408 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.648 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2917.
+Total: 8.423000 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.150700 ms MarkObjects: 7.995600 ms  DeleteObjects: 0.031400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1666.956835 seconds.
+  path: Assets/Voice lands/Button rising out of ground sound.anim
+  artifactKey: Guid(32356bf037ee2ba40b7356b81e7175f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/Button rising out of ground sound.anim using Guid(32356bf037ee2ba40b7356b81e7175f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eab5e0272c7406421b2258dba61c3a9') in 0.281189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.190514 seconds.
+  path: Assets/Sound effects/industrial_machine_electronic_door_open.mp3
+  artifactKey: Guid(1e58afbf46e1e2d4fb34c2a328a289a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound effects/industrial_machine_electronic_door_open.mp3 using Guid(1e58afbf46e1e2d4fb34c2a328a289a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383e66844f9e091e24eff2445fb6de75') in 0.046643 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.797 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.1 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2921.
+Total: 8.692000 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.156000 ms MarkObjects: 8.246800 ms  DeleteObjects: 0.034500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.704 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2924.
+Total: 8.324400 ms (FindLiveObjects: 0.242200 ms CreateObjectMapping: 0.154700 ms MarkObjects: 7.888600 ms  DeleteObjects: 0.037300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.124 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2927.
+Total: 8.145600 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.154100 ms MarkObjects: 7.715600 ms  DeleteObjects: 0.029500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.117 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2930.
+Total: 8.398400 ms (FindLiveObjects: 0.238000 ms CreateObjectMapping: 0.138400 ms MarkObjects: 7.988600 ms  DeleteObjects: 0.032200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006379 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.516 seconds
+- Completed reload, in  1.703 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.3 MB.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2897.
-Total: 8.961200 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.194400 ms MarkObjects: 8.436200 ms  DeleteObjects: 0.045700 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2933.
+Total: 8.528200 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.200600 ms MarkObjects: 8.044600 ms  DeleteObjects: 0.034100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1333.096345 seconds.
+  path: Assets/Voice lands/Editor[4].mp3
+  artifactKey: Guid(0920f970460460e409dfec7fa8854c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/Editor[4].mp3 using Guid(0920f970460460e409dfec7fa8854c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab5dd663e825a53bae7179db3f8c6fd') in 0.218649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Voice lands/Editor[6].mp3
+  artifactKey: Guid(e370bb9feb464c4479602d0c83ac58fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/Editor[6].mp3 using Guid(e370bb9feb464c4479602d0c83ac58fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd919dfa59ea27f9f4753de1d244a77e9') in 0.013931 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004218 seconds.
+Registered in 0.006666 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
+- Completed reload, in  1.717 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.3 MB.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2900.
-Total: 7.175600 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.147900 ms MarkObjects: 6.776200 ms  DeleteObjects: 0.032100 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2937.
+Total: 8.263500 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.156600 ms MarkObjects: 7.821100 ms  DeleteObjects: 0.030300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010026 seconds.
+Registered in 0.006675 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.731 seconds
+- Completed reload, in  1.994 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2940.
+Total: 10.210100 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.170000 ms MarkObjects: 9.724400 ms  DeleteObjects: 0.039900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2943.
+Total: 8.814600 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.139300 ms MarkObjects: 8.398100 ms  DeleteObjects: 0.036500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.783 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2946.
+Total: 8.771000 ms (FindLiveObjects: 0.265400 ms CreateObjectMapping: 0.154800 ms MarkObjects: 8.315100 ms  DeleteObjects: 0.033800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.558 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2949.
+Total: 8.582600 ms (FindLiveObjects: 0.249200 ms CreateObjectMapping: 0.144800 ms MarkObjects: 8.154700 ms  DeleteObjects: 0.032700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2952.
+Total: 8.709900 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.159100 ms MarkObjects: 8.244500 ms  DeleteObjects: 0.035300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2955.
+Total: 8.060100 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.160700 ms MarkObjects: 7.600500 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.644 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2958.
+Total: 8.802700 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.152400 ms MarkObjects: 8.368400 ms  DeleteObjects: 0.038300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006453 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.759 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2961.
+Total: 7.987900 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.176200 ms MarkObjects: 7.525400 ms  DeleteObjects: 0.036100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.670 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2964.
+Total: 8.210500 ms (FindLiveObjects: 0.257100 ms CreateObjectMapping: 0.154800 ms MarkObjects: 7.761100 ms  DeleteObjects: 0.036400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.3 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.727 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2903.
-Total: 8.176400 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.160800 ms MarkObjects: 7.719000 ms  DeleteObjects: 0.042400 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2967.
+Total: 8.730500 ms (FindLiveObjects: 0.261600 ms CreateObjectMapping: 0.151500 ms MarkObjects: 8.274500 ms  DeleteObjects: 0.040900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3652.862054 seconds.
+  path: Assets/Voice lands/Editor[7].mp3
+  artifactKey: Guid(1abaca67ea2cef0428443dda968ed562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/Editor[7].mp3 using Guid(1abaca67ea2cef0428443dda968ed562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed321ab4029c7f80fe307d4a0b19db8') in 1.150642 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.742 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2972.
+Total: 10.032400 ms (FindLiveObjects: 0.325000 ms CreateObjectMapping: 0.190400 ms MarkObjects: 9.471700 ms  DeleteObjects: 0.043100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.795900 seconds.
+  path: Assets/Scripts/SoundActivationArea.cs
+  artifactKey: Guid(6a77e9b6bf38b2a4a8c9e203a8e97ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundActivationArea.cs using Guid(6a77e9b6bf38b2a4a8c9e203a8e97ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cf1b7ffa37b563f99500b203d2c5ce') in 0.012307 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.736 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2975.
+Total: 8.732800 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.148400 ms MarkObjects: 8.279000 ms  DeleteObjects: 0.036800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.344462 seconds.
+  path: Assets/Scripts/SoundActivationArea.cs
+  artifactKey: Guid(6a77e9b6bf38b2a4a8c9e203a8e97ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundActivationArea.cs using Guid(6a77e9b6bf38b2a4a8c9e203a8e97ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0fad9f5dbae57cd4c35673805e2238') in 0.006901 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2978.
+Total: 9.995600 ms (FindLiveObjects: 0.414000 ms CreateObjectMapping: 0.263000 ms MarkObjects: 9.276000 ms  DeleteObjects: 0.040300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 7.719700 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.140600 ms MarkObjects: 7.306800 ms  DeleteObjects: 0.026400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 782.655374 seconds.
+  path: Assets/Voice lands/Editor[8].mp3
+  artifactKey: Guid(fa174b9d9509fe740963c5668234f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voice lands/Editor[8].mp3 using Guid(fa174b9d9509fe740963c5668234f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72065f2f19a463f329275cc8a86794dc') in 0.227638 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.205 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 9.202800 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.180500 ms MarkObjects: 8.697500 ms  DeleteObjects: 0.043300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2988.
+Total: 8.375900 ms (FindLiveObjects: 0.247600 ms CreateObjectMapping: 0.147700 ms MarkObjects: 7.947500 ms  DeleteObjects: 0.031300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2991.
+Total: 7.440700 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.130900 ms MarkObjects: 7.052400 ms  DeleteObjects: 0.024600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.411 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2994.
+Total: 7.885000 ms (FindLiveObjects: 0.283000 ms CreateObjectMapping: 0.184700 ms MarkObjects: 7.384800 ms  DeleteObjects: 0.031100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2997.
+Total: 8.837300 ms (FindLiveObjects: 0.268600 ms CreateObjectMapping: 0.162000 ms MarkObjects: 8.365100 ms  DeleteObjects: 0.040200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3000.
+Total: 6.166300 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.093800 ms MarkObjects: 5.853200 ms  DeleteObjects: 0.020800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.768 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3003.
+Total: 7.303800 ms (FindLiveObjects: 0.250700 ms CreateObjectMapping: 0.139400 ms MarkObjects: 6.880700 ms  DeleteObjects: 0.031200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1177.832803 seconds.
+  path: Assets/Animations/portal gun pedistool.anim
+  artifactKey: Guid(1faa965281aee53469dc24e961022b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/portal gun pedistool.anim using Guid(1faa965281aee53469dc24e961022b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de069b080ef66083a0c119793c11870') in 0.166331 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3006.
+Total: 6.147700 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.093000 ms MarkObjects: 5.841500 ms  DeleteObjects: 0.019700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3009.
+Total: 5.951000 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.107700 ms MarkObjects: 5.616800 ms  DeleteObjects: 0.025600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.5 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3012.
+Total: 8.815500 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.180500 ms MarkObjects: 8.290800 ms  DeleteObjects: 0.038300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.416 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.5 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3015.
+Total: 8.606200 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.147300 ms MarkObjects: 8.167000 ms  DeleteObjects: 0.030900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.5 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3018.
+Total: 6.824400 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.117400 ms MarkObjects: 6.461800 ms  DeleteObjects: 0.022800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

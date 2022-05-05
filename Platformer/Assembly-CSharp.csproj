@@ -81,9 +81,11 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Scripts\SoundActivationArea.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\Scripts\PortalSpawningScript.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Scripts\VoiceLineManagerScript.cs" />
     <Compile Include="Assets\Scripts\PortalScript.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\Scripts\WormHoleBUlletSctipr.cs" />
@@ -128,13 +130,16 @@
     <Compile Include="Assets\Input system\PlayerControllsMain.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Scripts\ButtonLiftScript.cs" />
     <Compile Include="Assets\Scripts\MirrorObjectDcript.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Scripts\ButtonLiftScript.cs" />
+    <Compile Include="Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
+    <Compile Include="Assets\Scripts\KillPlayerImmedytlyScript.cs" />
+    <Compile Include="Assets\Scripts\DetectPortalScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
@@ -151,15 +156,18 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.compute" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\Ultra Emissive Particles Shader\Shaders\ParticleEmmissive.shader" />
+    <None Include="Assets\Lava_Flowing_Shader\ReadMe.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Depth Mask Edge Detection.shader" />
+    <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Ocean.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\ScreenCutoutShader.shader" />
@@ -175,6 +183,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Snow.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
@@ -195,6 +204,7 @@
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Simple Sine Wave.shader" />
+    <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
